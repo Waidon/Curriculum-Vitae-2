@@ -38,7 +38,9 @@ h2 {
 .main-header #logo {
     width: 50%;
     margin: 10px 0;
-    float: center;
+    
+    display:block;
+    transition: width 2s;
 }
 
 .main-header .main-nav {
@@ -118,6 +120,7 @@ footer p {
             margin:auto;
             display:block;
             width:65%;
+            transition: width 2s;
         
         }
     
@@ -148,6 +151,7 @@ footer p {
             display: block;
             overflow: hidden;
             width: 99%;
+            transition: width 1s;
         }
     
         .main-header .main-nav ul {

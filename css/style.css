@@ -5,6 +5,7 @@ body {
     color:  rgb(6, 103,141);
     line-height: 1.7em;
     text-align: left;
+    transition: width 1s;
 }
 
 .name {
@@ -38,7 +39,6 @@ h2 {
 .main-header #logo {
     width: 50%;
     margin: 10px 0;
-    
     display:block;
     transition: width 2s;
 }
@@ -119,7 +119,7 @@ footer p {
         .main-header img#logo {
             margin:auto;
             display:block;
-            width:65%;
+            width:50;
             transition: width 2s;
         
         }
@@ -151,7 +151,7 @@ footer p {
             display: block;
             overflow: hidden;
             width: 99%;
-            transition: width 1s;
+            transition: width 2s;
         }
     
         .main-header .main-nav ul {

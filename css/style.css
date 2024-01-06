@@ -11,8 +11,11 @@ body {
 
 .name {
     background-color:#ffe135;
-    padding: 20px;
+    padding-top: 5px;
+    padding-bottom: 25px;
+    padding-left: 5px;
     margin: 5px;
+    height: 60px;
 
 }
 
@@ -27,6 +30,7 @@ a:hover {
 
 h2 {
     color:black;
+    display: inline;
 }
 
 .container {
@@ -48,7 +52,7 @@ h2 {
 
 .main-header .main-nav {
     background-color:rgb(6, 103,141);
-    height: 45px;
+    height: 40px;
     border-radius: 5px;
     border: 1px #ffe135 solid;
     color:#ffe135;
@@ -258,3 +262,11 @@ footer p {
         }
     
     }
+
+    .bi, bi-backpack {
+        
+        color: #ffe135;
+      padding-left: 2px;
+    }
+
+    
